@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+	font-family: 'Roboto' , sans-serif;
+	margin: o;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+
+
+
+}
+
+header, main ,footer{
+	padding: 20px;
+	font-weight: 400;
+}
+
+header{
+	height: vh;
+	background-color: darkturquoise;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+main{
+	height: vh;
+	background-color:lightpink;
+	grid-area: main;
+
+
+}
+
+main div{
+	font-size: 1rem;
+	
+
+}
+
+nav a{
+	color: white;
+	text-transform: uppercase;
+	font-size: 2rem;
+	text-decoration: none;
+	padding: 6px 100px
+
+}
+
+nav ul li a{
+	color: blue;
+	text-decoration: none; 
+	font-size: 1rem;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+
+
+
+
+footer{
+	height: vh;
+	background-color:plum;
+}
+
+@media screen and (max-whidth 700px){
+	header{
+		display: flex;
+		flex-direction: colum;
+	}
+}
+
+body {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 20vh 70vh 10vh ;
+	grid-template-areas: "header" "main" "footer";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+}
